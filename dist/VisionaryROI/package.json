@@ -1,0 +1,18 @@
+{
+  "name": "visionaryroi",
+  "version": "1.0.0",
+  "description": "Aplicación de escritorio para VisionaryROI",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . VisionaryROI --platform=win32 --arch=x64 --out=dist/ --overwrite"
+  },
+  "dependencies": {
+    "electron": "^4.0.0"
+  },
+  "author": "SIXTO",
+  "license": "MIT",
+  "devDependencies": {
+    "electron-winstaller": "^5.4.0"
+  }
+}
